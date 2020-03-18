@@ -1,0 +1,37 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+// Variables
+@import "variables";
+@import "spacemounts";
+
+// Bootstrap
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font-awesome
+$fa-font-path: "../../../node_modules/sass-font-awesome/fonts" !default;
+@import "../../../node_modules/sass-font-awesome/font-awesome";
+
+// Ion icons
+$ionicons-font-path: "../../../node_modules/ionicons-npm/fonts" !default;
+@import "../../../node_modules/ionicons-npm/scss/ionicons";
+
+// No UI slider
+@import "../../../node_modules/nouislider/distribute/nouislider.css";
+
+// Toastr
+@import "../../../node_modules/toastr/build/toastr.css";
+
+// Custom style
+@import "../css/style.css";
+
+@import "../../../node_modules/selectize/dist/css/selectize.bootstrap3.css";
+
+//DateTimePicker
+@import "../../../node_modules/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build";
+
+// For errors
+@import "../css/animate.css";
+@import "../css/response-messages.css";
+@import "../css/utils.css";
+

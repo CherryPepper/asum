@@ -1,0 +1,11 @@
+/node_modules
+/public/storage
+/public/hot
+/public/css
+/public/js
+/public/mix-manifest.json
+/storage/*.key
+/vendor
+/.idea
+phpstorm.meta.php
+_ide_helper.php
